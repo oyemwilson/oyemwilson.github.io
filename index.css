@@ -52,6 +52,11 @@ span {
   text-decoration: underline;
   font-weight: 900;
 }
+body {
+  min-height:100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
 
 section {
   height: 950px;

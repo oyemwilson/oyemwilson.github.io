@@ -1,0 +1,63 @@
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+#project {
+  text-align: center;
+}
+h2 {
+  font-size: 50px;
+  font-family: 'Mate SC', serif;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Mate SC', serif;
+  font-size: 100px;
+  font-weight: 400px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#intro-page {
+  background-color: #DEC1FF;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  text-align: center;
+  margin: 0px;
+
+}
+#project-page {
+  background-color: #7F5A83;
+  padding-top: 50px;
+  color: white;
+}
+
+#intro-text {
+  width: 560px;
+  margin: auto;
+  text-align: left;
+}
+
+.image{
+  height: 50px;
+}
+
+#laundrix-div{
+  margin: 0 auto;
+}
+
+span {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+section {
+  height: 950px;
+  padding: 50PX;
+}
+
+.padding-right-45 {
+  padding-right: 45px;
+}

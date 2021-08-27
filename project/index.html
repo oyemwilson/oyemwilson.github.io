@@ -1,172 +1,84 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Style an Image Quiz</title>
-    <style>
-      header img {
-        height:50px;
-        margin-top: 10px;
-        }
-      body {
-        height: 125vh;
-        font-family:sans-serif;
-      }
-      header {
-        background-color: white;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        box-shadow: 0 2px 0px 0 black;
-        margin-right: 0px;
-      }
-      header *{
-        display: inline;
-      }
-      header li{
-        margin: 20px;
-      }
-      header li a{
-        color: black;
-        text-decoration: none;
-      }
-      header ul{
-        margin-left: 750px;
-      }
-      .active{
-        background-color: steelblue;
-         border: none;
-         padding: 13px 20px;
-         text-align: center;
-         display: : inline-block;
-         border-radius: 8px;
-       }
-         table{
-         width:50%;
-         margin: 50;
-         text-align: left;
-         border: 0px;
-        margin-left: 40%;
-        margin-right: auto;
-        height:200px;
-      }
-       .tbl{
-         color: white;
-         background-color: steelblue;
-         background-clip: border-box;
-         border: 5px;
-         padding: 35px;
-     }
-    .mydiv {
-      text-align: left;
-      font-size: 30px;
-      margin-left: 350px;
-    }
-    .l{text-align: left;
-      margin-left: 350px;
-    align-items: center;
-    width: 500px;
-    font-size: 15px;
-    }
-    .container{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 100px;
-    }
-    .image{
-      flex-basis:40%;
-      padding-left: 170px;
-     }
-    main img{
-      height: 330px;}
-    .text{
-      font-size: 20px;
-      padding-right: 200px;
-     }
-    .text h1{
-      font-size: 60px;
-      margin-left: 50px;
-      font-weight: lighter;
-    }
-    .text h2{
-      font-size: 45px;
-      font-weight: lighter;
-    }
-    .tb h2{
-      text-align: center;
-      font-size: 50px;
-      font-weight: lighter;
-    }
-  </style>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mate+SC&display=swap"rel="stylesheet">
+    <script src="myscripts">
+    </script>
+    <title>laundrix Global Solution</title>
 </head>
 <body>
-  <header>
-   <img src="laundrix-write.jpeg" alt="laundrix global solution".>
-    <nav>
-      <ul>
-        <li><a href="#">Promos</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a class="active" href="#">Request Pick Up</a></li>
-     </ul>
-   </nav>
- </header>
- <main>
-   <div class="container">
-     <div class="image">
-       <img src="laundrix.jpeg" alt="logo">
-     </div>
-     <div class="text">
-      <h1> May Promo </h1>
-      <h2> x Clothes for #2000 </h2>
-      <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-     </div>
-  </div>
-  <div class="mydiv">
-  <h2><span style="color:steelblue;">No.1 Obaka Street F01, Kubwa, Abuja</span></h2>
-  <p>Store Hours: Mon-fri, 11AM - 6PM</p>
-  <p>Call/Whatsapp Us: <span style="color:steelblue;">08011111111 08011111111</span></p>
-</div>
-<div class="tbl">
-  <div class="tb">
-    <h2> Pricing </h2>
-  </div>
-  <table class="center">
-    <tr>
-      <th>Item</th>
-      <th>price per item</th>
-    </tr>
-  <tr>
-    <td>Jeans</td>
-    <td>#300</td>
-  </tr>
-  <tr>
-    <td>Jeans</td>
-    <td>#300</td>
-  </tr>
-  <tr>
-    <td>Jeans</td>
-    <td>#300</td>
-  </tr>
-  <tr>
-    <td>Jeans</td>
-    <td>#300</td>
-  </tr>
-  <tr>
-    <td>Jeans</td>
-    <td>#300</td>
-  </tr>
-  <tr>
-    <td>Jeans</td>
-    <td>#300</td>
-  </tr>
-</table>
-</div>
+    <header>
+        <ul class="topnav">
+            <img src="laundrix.png" alt="laundrix logo">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="right"><a href="#">Request Pick-up</a></li>
+        </ul>
+    </header>
+    <section>
+        <br>
+        <div class="slideshow-container">
+             <div class="mySlides fade">
+              <img src="clean.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="wear.jpg" style="width:100%", height="auto">
+            </div>
+            <div class="mySlides fade">
+              <img src="comfort.jpg" style="width:100%">
+            </div>
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+        </div>
+    </section>
+    <section class="bottom">
+        <h1> QUALITY LAUNDRY SERVICE IN YOUR CITY </h1>
+        <div class="b1">
+            <img src="home-page.png" alt="free pick up".>
+            <h2>Home Pick-up & delivery</h2>
+            <p>Home pick up and delivery is FREE. We can even arrange to come by while you're out</p>
+        </div>
+        <div class="b2">            
+            <img src="phone-receiver-silhouette.png" alt="easy ordering".>
+            <h2>Easy Ordering</h2>
+            <p>Our support agents are on standby to ensure you're laundry needs are met.</p>
+        </div>
+        <div class="b3">
+            <img src="check-mark.png" alt="quality service".>
+            <h2>Quality Clean</h2>
+            <p>From sorting to washing, drying to folding - our laundry pros know how to give your clothes an optimal clean.</p>
+        </div>
+    </section>
+    <script>
+      var slideIndex = 0;
+      showSlides();
 
+      function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000);
+      }
+    </script>
 </body>
 </html>

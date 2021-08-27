@@ -1,0 +1,135 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul.topnav li,header img{
+  float: left;
+  border-radius: 8px;
+
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 8px;
+ 
+}
+
+ul.topnav li a:hover:not(.active) {background-color: gray;}
+
+ul.topnav li.right {
+  background-color: #0274C6;
+  float: right;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;
+  margin-right: 0%;}
+  header img { display: block;
+  float: none ;}
+    ul.topnav li {margin-top: 10px;
+    overflow: hidden;}
+}
+header img{
+   height: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-left: 
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: 0px;
+  text-align: center;;
+}
+
+
+.active {
+  background-color: black;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+  .text {font-size: 11px}
+  }
+}
+.slideshow-conainer h1{
+position:absolute;
+text-align: center;
+}
+.slideshow-continer p{
+    position: absolute;
+    text-align: center;
+} 
+.bottom img {height: 100px;
+}
+.bottom{
+  height: 400px;
+}
+.b1, .b2, .b3{
+    display:inline-block;
+    position: relative;
+    margin: 10px;
+    float: none;
+    width: calc(31% - 10px);
+    height:200px;
+    text-align: center;
+}
+h1{
+text-align: center;
+}
+@media screen and (max-width: 600px){
+  .b1, .b2, .b3{
+    display:inline;
+    position: relative;
+    margin: 8px;
+    float: none;
+    width: calc(29% - 10px);
+    height:0px;
+    text-align: center;
+  }
+  .bottom img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 70px;
+  }
+}
